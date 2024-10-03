@@ -166,6 +166,71 @@ body {
         font-weight: bold;
 	}
 
+	/*--All News Styling Above Here--*/
+
+	.roster-links {
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	#roster-a {
+		color: black;
+		background-color: transparent !important;
+		border: none;
+		text-align: center;
+	}
+
+	#roster-a:hover {
+		color: rgb(252, 76, 2);
+	}
+
+	#roster-h2 {
+		text-align: center;
+		margin: 30px 0;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+
+	#roster-h3 {
+		text-align: center;
+		margin: 10px 0 0 0;
+		text-transform: uppercase;
+	}
+
+	.roster-table {
+		width: 90%;
+		margin: 0 5%;
+	}
+
+	th {
+		margin: auto 10px;
+		height: 50px;
+	}
+
+	td {
+		width: 12%;
+		text-align: center;
+		margin: auto 10px;
+		border-bottom: .8px solid black
+	}
+
+	.roster-portrait {
+		height: 50px;
+		width: 50px;
+		border: 1px solid black;
+		border-radius: 50%;
+	}
+
+	tr:nth-child(even) {
+		background-color: rgb(225, 225, 225);
+	}
+
+	tr:nth-child(odd) {
+		background-color: rgb(210, 210, 210);
+	}
+
+	/*-Roster Styling Above Here--*/
+
 
     /*--All-Below-Goes-Into-Every-Page--*/
 
