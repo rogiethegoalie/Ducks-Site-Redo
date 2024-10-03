@@ -106,6 +106,42 @@ body {
 
 	/*--All-Above-Goes-Into-Every-Page--*/
 
+    #latest {
+		text-transform: uppercase;
+		text-decoration: underline;
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+		margin: 40px;
+	}
+
+	.index-head {
+		width: 60%;
+		margin: 25px auto;
+		text-align: center;
+		text-transform: uppercase;
+		/* text-decoration: underline; */
+	}
+
+	.index-image {
+		width: 60%;
+		display: block;
+		margin: 5px auto;
+	}
+
+	.index-para {
+		width: 60%;
+		display: block;
+		margin: 5px auto;
+		padding: 1rem;
+	}
+
+    #index-link {
+        color: black;
+        text-decoration: none;
+    }
+
+	/*--All-Index-Styling-Goes-Above-Here--*/
 
     /*--All-Below-Goes-Into-Every-Page--*/
 
@@ -154,3 +190,4 @@ body {
 	#index-h5 {
 		color: white
 	} 
+}
