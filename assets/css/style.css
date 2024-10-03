@@ -200,6 +200,7 @@ body {
 	.roster-table {
 		width: 90%;
 		margin: 0 5%;
+		font-weight: bold;
 	}
 
 	th {
@@ -282,6 +283,7 @@ body {
 		 text-decoration: none;
 		 text-transform: uppercase;
 		 margin: 5px;
+		 width: 60px;
 		 background-color: none;
 	}
 	  
@@ -313,7 +315,7 @@ body {
 	  
 	  #schedule-home {
 		  color: white;
-		  background-color: black;
+		  background-color: black !;
 	  }
 	  
 	  #home {
