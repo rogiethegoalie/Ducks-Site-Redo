@@ -231,6 +231,45 @@ body {
 
 	/*-Roster Styling Above Here--*/
 
+	.staff-head {
+		margin-left: 30px
+	}
+
+	.staff-sub {
+		margin: 15px 30px;
+	}
+
+	.coaches {
+		margin: 15px 30px;
+	}
+
+	.staff-head, .staff-sub, .coaches {
+		width: 60%;
+		margin-left: 50px;
+	}
+
+	.bio-image {
+		margin: auto;
+		display: block;
+	}
+
+	.bio-head {
+		text-align: center;
+	}
+
+	.bio-sub {
+		text-align: center;
+	}
+
+#staff-para {
+		width: 60%;
+		margin: 15px 20%;
+	}
+
+	hr {
+		margin: 20px 40px;
+
+	/*--Staff Styling Goes Above Here--*/
 
     /*--All-Below-Goes-Into-Every-Page--*/
 
@@ -279,4 +318,6 @@ body {
 	#index-h5 {
 		color: white
 	} 
+}
+
 }
