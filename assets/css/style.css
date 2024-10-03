@@ -168,51 +168,36 @@ body {
 
 	/*--All News Styling Above Here--*/
 
-	.roster-links {
-		width: 90%;
-		margin: 0 5%;
-	}
-
-	#roster-a {
-		color: black;
-		background-color: transparent !important;
-		border: none;
-		text-align: center;
-	}
-
-	#roster-a:hover {
-		color: rgb(252, 76, 2);
-	}
-
-	#roster-h2 {
-		text-align: center;
-		margin: 30px 0;
-		text-transform: uppercase;
-		text-decoration: underline;
-	}
-
-	#roster-h3 {
-		text-align: center;
-		margin: 10px 0 0 0;
-		text-transform: uppercase;
-	}
-
 	.roster-table {
-		width: 90%;
-		margin: 0 5%;
+		width: 80%;
+		margin: auto;
+		table-layout: fixed;
 		font-weight: bold;
 	}
 
-	th {
-		margin: auto 10px;
-		height: 50px;
-	}
-
-	td {
+	#roster-td {
 		width: 12%;
 		text-align: center;
 		margin: auto 10px;
 		border-bottom: .8px solid black
+	}
+
+	#roster-th {
+		margin: auto 10px;
+		height: 50px;
+	}
+
+	.roster-h2 {
+		text-align: center;
+		text-transform: uppercase;
+		margin: 30px;
+	}
+
+	.roster-h3 {
+		text-align: center;
+		text-decoration: underline;
+		margin-top: 30px;
+		margin-bottom: 5px;
 	}
 
 	.roster-portrait {
@@ -222,11 +207,19 @@ body {
 		border-radius: 50%;
 	}
 
-	tr:nth-child(even) {
+	#roster-th:nth-child(even) {
 		background-color: rgb(225, 225, 225);
 	}
 
-	tr:nth-child(odd) {
+	#roster-th:nth-child(odd) {
+		background-color: rgb(210, 210, 210);
+	}
+
+	#roster-td:nth-child(even) {
+		background-color: rgb(225, 225, 225);
+	}
+
+	#roster-td:nth-child(odd) {
 		background-color: rgb(210, 210, 210);
 	}
 
@@ -269,26 +262,25 @@ body {
 
 	hr {
 		margin: 20px 40px;
-	}
+	} 
 
 	/*--Staff Styling Goes Above Here--*/
 
-	#month-link {
-		width: 80%;
-		margin: 10px 10%;
-	}
-	
-	#shortcut {
-		 color: black;
-		 text-decoration: none;
-		 text-transform: uppercase;
-		 margin: 5px;
-		 width: 60px;
-		 background-color: none;
+	.month-link {
+		color: black;
+		margin: 30px 28px;
+		text-transform: uppercase;  
+		display: inline-block;
+	  }
+
+
+	  #shortcut {
+		color: black;
+		text-decoration: none;
 	}
 	  
 	  #shortcut:hover {
-		color: rgb(252, 76, 2);
+		color: white;
 	  }
 	  
 	  #schedule-h3 {
@@ -299,14 +291,14 @@ body {
 		margin-bottom: 20px;
 	  }
 	  
-	  #schedule-table {
+	  table {
 		  width: 80%;
 		  margin: 40px 10%;
 		  table-layout: fixed;
-		  font-weight: bold;
+		  
 	  }
 	  
-	  #schedule-table > th, td {
+	  th, td {
 		  text-align: center;
 		  background-color: rgb(252, 76, 2);
 		  height: 100px;
@@ -315,7 +307,7 @@ body {
 	  
 	  #schedule-home {
 		  color: white;
-		  background-color: black !;
+		  background-color: black;
 	  }
 	  
 	  #home {
@@ -326,11 +318,10 @@ body {
 		 background-color: white;
 		  color: black;
 	  }
-
+		
 	  #big-hide {
 		display: none;
 	  }
-	  
 
 	/*--All Schedule Styling Goes Above--*/
 
@@ -381,12 +372,17 @@ body {
 	#index-h5 {
 		color: white
 	} 
-
-	/*--All Media Queries Below Here--*/
-
 	 /*--All-Media-Queries-Go-Below-Here--*/
-    
-  
+
+	 @media screen and (max-width: 1000px) { 
+
+		.hide {
+		  display: none;
+		}
+		
+		#hide {
+			display: none;
+		}
 
 	 @media screen and (max-width: 800px) { 
 
@@ -446,5 +442,6 @@ body {
 			margin: auto;
 		}
 	}
-}
+	 }
+	}
 }
