@@ -1,0 +1,3 @@
+Fix Blues Images in Schedule
+
+Give Standings Custom Classes and IDs
