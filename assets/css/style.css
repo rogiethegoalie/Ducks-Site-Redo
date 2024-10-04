@@ -207,19 +207,19 @@ body {
 		border-radius: 50%;
 	}
 
-	#roster-th:nth-child(even) {
+	#stand-th:nth-child(even) {
 		background-color: rgb(225, 225, 225);
 	}
 
-	#roster-th:nth-child(odd) {
+	#stand-th:nth-child(odd) {
 		background-color: rgb(210, 210, 210);
 	}
 
-	#roster-td:nth-child(even) {
+	#stand-td:nth-child(even) {
 		background-color: rgb(225, 225, 225);
 	}
 
-	#roster-td:nth-child(odd) {
+	#stand-td:nth-child(odd) {
 		background-color: rgb(210, 210, 210);
 	}
 
@@ -324,6 +324,62 @@ body {
 	  }
 
 	/*--All Schedule Styling Goes Above--*/
+    
+	.stand-table {
+        width: 80%;
+        margin: 10px 10%;
+    }
+    
+    .team-logo {
+		width: 50px;
+		height: 50px;
+		margin-top: 5px;
+	}
+
+	#stand-th,
+	#stand-td {
+		width: 10%;
+		border-bottom: 1px solid black;
+	}
+
+	.standings-head {
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: underline;
+		text-decoration-style: double;
+	}
+
+	.pacific-head {
+		margin: 40px 0;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+
+	.west-head {
+		margin: 40px 0;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration: underline;
+	}
+
+	#roster-th:nth-child(even) {
+		background-color: rgb(225, 225, 225);
+	}
+
+	#roster-th:nth-child(odd) {
+		background-color: rgb(210, 210, 210);
+	}
+
+	#roster-td:nth-child(even) {
+		background-color: rgb(225, 225, 225);
+	}
+
+	#roster-td:nth-child(odd) {
+		background-color: rgb(210, 210, 210);
+	}
+
+	/*--All Standings Styling Above Here--*/
 
     /*--All-Below-Goes-Into-Every-Page--*/
 
