@@ -1,545 +1,557 @@
-/*--
-Ducks Colours 
-Orange: (252, 76, 2) #F47A38
-Gold: (185, 151, 91) #B9975B
-Silver: (193, 198, 200) #C1C6C8
---*/
+	/*--
+	Ducks Colours 
+	Orange: (252, 76, 2) #F47A38
+	Gold: (185, 151, 91) #B9975B
+	Silver: (193, 198, 200) #C1C6C8
+	--*/
 
-/*--Ducks Colours Above--*/
+	/*--Ducks Colours Above--*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.inter {
+	.inter {
 	font-family: "Inter", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 500;
 	font-style: normal;
-}
+	}
 
-/*--Font Styling Above--*/
+	/*--Font Styling Above--*/
 
-body {
+	body {
 	padding: 0;
 	margin: 0;
 	font-family: inter;
 
 
 	* {
-		margin: 0;
-		padding: 0;
+	margin: 0;
+	padding: 0;
 	}
 
 
 	.top {
-		background-color: black;
-		width: 100%;
-		height: 80px;
+	background-color: black;
+	width: 100%;
+	height: 80px;
 	}
 
 	.top-img1 {
-		width: 50px;
-		margin: 20px 0 0 20px
+	width: 50px;
+	margin: 20px 0 0 20px
 	}
 
 	.topnav {
-		background-color: black;
-		padding: 15px;
-		margin-bottom: 10px;
+	background-color: black;
+	padding: 15px;
+	margin-bottom: 10px;
 
 	}
 
 	.topnav a {
-		color: white;
-		text-decoration: none;
-		text-transform: uppercase;
-		margin-right: 10px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 10px;
 	}
 
 	.topnav a:hover {
-		color: rgb(252, 76, 2);
-		/* text-decoration: underline; */
+	color: rgb(252, 76, 2);
+	/* text-decoration: underline; */
 	}
 
 	.topnav .icon {
-		display: none;
+	display: none;
 	}
 
 	.topnav a.active {
-		background-color: black;
-		color: white;
+	background-color: black;
+	color: white;
 	}
 
 	.topnav .icon {
-		display: none;
+	display: none;
 	}
 
 
 	.hero {
-		width: 98%;
-		height: 600px;
-		background-image: url('../images/home-page/ducks-retired-jerseys.jpg');
-		background-color: black;
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;
-		position: relative;
-		margin: 20px auto;
-		display: block;
+	width: 98%;
+	height: 600px;
+	background-image: url('../images/home-page/ducks-retired-jerseys.jpg');
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	margin: 20px auto;
+	display: block;
 	}
 
 	#cover-text {
-		background-color: rgba(252, 76, 2, .7);
-		font-size: 130%;
-		width: 80%;
-		position: absolute;
-		bottom: 30px;
-		min-height: 200px;
-		padding-top: 20px;
-		padding-left: 10px;
+	background-color: rgba(252, 76, 2, .7);
+	font-size: 130%;
+	width: 80%;
+	position: absolute;
+	bottom: 30px;
+	min-height: 200px;
+	padding-top: 20px;
+	padding-left: 10px;
 	}
 
 	#cover-text>h2,
 	#cover-text>h3 {
-		color: white;
-		text-transform: uppercase;
+	color: white;
+	text-transform: uppercase;
 	}
 
 	/*--All-Above-Goes-Into-Every-Page--*/
 
-    #latest {
-		text-transform: uppercase;
-		text-decoration: underline;
-		width: 100%;
-		text-align: center;
-		font-size: 25px;
-		margin: 40px;
+	#latest {
+	text-transform: uppercase;
+	text-decoration: underline;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	margin: 40px;
 	}
 
 	.index-head {
-		width: 60%;
-		margin: 25px auto;
-		text-align: center;
-		text-transform: uppercase;
-		/* text-decoration: underline; */
+	width: 60%;
+	margin: 25px auto;
+	text-align: center;
+	text-transform: uppercase;
+	/* text-decoration: underline; */
 	}
 
 	.index-image {
-		width: 60%;
-		display: block;
-		margin: 5px auto;
+	width: 60%;
+	display: block;
+	margin: 5px auto;
 	}
 
 	.index-para {
-		width: 60%;
-		display: block;
-		margin: 5px auto;
-		padding: 1rem;
+	width: 60%;
+	display: block;
+	margin: 5px auto;
+	padding: 1rem;
 	}
 
-    #index-link {
-        color: black;
-        text-decoration: none;
-    }
+	#index-link {
+	color: black;
+	text-decoration: none;
+	}
 
 	/*--All-Index-Styling-Goes-Above-Here--*/
 
-    #news-head {
-		width: 60%;
-		margin: 25px auto;
-        margin-top: 40px;
-		text-align: center;
-		text-transform: uppercase;
-		/* text-decoration: underline; */
+	#news-head {
+	width: 60%;
+	margin: 25px auto;
+	margin-top: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	/* text-decoration: underline; */
 	}
 
 	#news-img {
-		width: 60%;
-		display: block;
-		margin: 10px auto;
+	width: 60%;
+	display: block;
+	margin: 10px auto;
 	}
 
 	#news-p {
-		width: 60%;
-		display: block;
-		margin: 5px auto;
-		padding: 1rem;
-        font-weight: bold;
+	width: 60%;
+	display: block;
+	margin: 5px auto;
+	padding: 1rem;
+	font-weight: bold;
 	}
 
 	/*--All News Styling Above Here--*/
 
 	.roster-table {
-		width: 80%;
-		margin: auto;
-		table-layout: fixed;
-		font-weight: bold;
+	width: 80%;
+	margin: auto;
+	table-layout: fixed;
+	font-weight: bold;
 	}
 
 	#roster-td {
-		width: 12%;
-		text-align: center;
-		margin: auto 10px;
-		border-bottom: .8px solid black
+	width: 12%;
+	text-align: center;
+	margin: auto 10px;
+	border-bottom: .8px solid black
 	}
 
 	#roster-th {
-		margin: auto 10px;
-		height: 50px;
+	margin: auto 10px;
+	height: 50px;
 	}
 
 	.roster-h2 {
-		text-align: center;
-		text-transform: uppercase;
-		margin: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px;
 	}
 
 	.roster-h3 {
-		text-align: center;
-		text-decoration: underline;
-		margin-top: 30px;
-		margin-bottom: 5px;
+	text-align: center;
+	text-decoration: underline;
+	margin-top: 30px;
+	margin-bottom: 5px;
 	}
 
 	.roster-portrait {
-		height: 50px;
-		width: 50px;
-		border: 1px solid black;
-		border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	border-radius: 50%;
 	}
 
 	#stand-th:nth-child(even) {
-		background-color: rgb(225, 225, 225);
+	background-color: rgb(225, 225, 225);
 	}
 
 	#stand-th:nth-child(odd) {
-		background-color: rgb(210, 210, 210);
+	background-color: rgb(210, 210, 210);
 	}
 
 	#stand-td:nth-child(even) {
-		background-color: rgb(225, 225, 225);
+	background-color: rgb(225, 225, 225);
 	}
 
 	#stand-td:nth-child(odd) {
-		background-color: rgb(210, 210, 210);
+	background-color: rgb(210, 210, 210);
 	}
 
 	/*-Roster Styling Above Here--*/
 
 	.staff-head {
-		margin-left: 30px
+	margin-left: 30px
 	}
 
 	.staff-sub {
-		margin: 15px 30px;
+	margin: 15px 30px;
 	}
 
 	.coaches {
-		margin: 15px 30px;
+	margin: 15px 30px;
 	}
 
 	.staff-head, .staff-sub, .coaches {
-		width: 60%;
-		margin-left: 50px;
+	width: 60%;
+	margin-left: 50px;
 	}
 
 	.bio-image {
-		margin: auto;
-		display: block;
+	margin: auto;
+	display: block;
 	}
 
 	.bio-head {
-		text-align: center;
+	text-align: center;
 	}
 
 	.bio-sub {
-		text-align: center;
+	text-align: center;
 	}
 
-#staff-para {
-		width: 60%;
-		margin: 15px 20%;
+	#staff-para {
+	width: 60%;
+	margin: 15px 20%;
 	}
 
 	hr {
-		margin: 20px 40px;
+	margin: 20px 40px;
 	} 
 
 	/*--Staff Styling Goes Above Here--*/
 
 	.month-link {
-		color: black;
-		margin: 30px 28px;
-		text-transform: uppercase;  
-		display: inline-block;
-	  }
-
-
-	  #shortcut {
-		color: black;
-		text-decoration: none;
+	color: black;
+	margin: 30px 28px;
+	text-transform: uppercase;  
+	display: inline-block;
 	}
-	  
-	  #shortcut:hover {
-		color: white;
-	  }
-	  
-	  #schedule-h3 {
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 25px;
-		margin-bottom: 20px;
-	  }
-	  
-	  table {
-		  width: 80%;
-		  margin: 40px 10%;
-		  table-layout: fixed;
-		  
-	  }
-	  
-	  th, td {
-		  text-align: center;
-		  background-color: rgb(252, 76, 2);
-		  height: 100px;
-		  border: 1px solid black;
-	  }
-	  
-	  #schedule-home {
-		  color: white;
-		  background-color: black;
-	  }
-	  
-	  #home {
-		  width: 40px;
-	  }
-	  
-		#schedule-away {
-		 background-color: white;
-		  color: black;
-	  }
-		
-	  #big-hide {
-		display: none;
-	  }
+
+
+	#shortcut {
+	color: black;
+	text-decoration: none;
+	}
+
+	#shortcut:hover {
+	color: white;
+	}
+
+	#schedule-h3 {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-bottom: 20px;
+	}
+
+	table {
+	width: 80%;
+	margin: 40px 10%;
+	table-layout: fixed;
+
+	}
+
+	th, td {
+	text-align: center;
+	background-color: rgb(252, 76, 2);
+	height: 100px;
+	border: 1px solid black;
+	}
+
+	#schedule-home {
+	color: white;
+	background-color: black;
+	}
+
+	#home {
+	width: 40px;
+	}
+
+	#schedule-away {
+	background-color: white;
+	color: black;
+	}
+
+	#big-hide {
+	display: none;
+	}
 
 	/*--All Schedule Styling Goes Above--*/
-    
+
 	.stand-table {
-        width: 80%;
-        margin: 10px 10%;
-    }
-    
-    .team-logo {
-		width: 50px;
-		height: 50px;
-		margin-top: 5px;
+	width: 80%;
+	margin: 10px 10%;
+	}
+
+	.team-logo {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
 	}
 
 	#stand-th,
 	#stand-td {
-		width: 10%;
-		border-bottom: 1px solid black;
+	width: 10%;
+	border-bottom: 1px solid black;
 	}
 
 	.standings-head {
-		text-align: center;
-		text-transform: uppercase;
-		text-decoration: underline;
-		text-decoration-style: double;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-style: double;
 	}
 
 	.pacific-head {
-		margin: 40px 0;
-		text-align: center;
-		text-transform: uppercase;
-		text-decoration: underline;
+	margin: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
 	}
 
 	.west-head {
-		margin: 40px 0;
-		text-align: center;
-		text-transform: uppercase;
-		text-decoration: underline;
+	margin: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
 	}
 
 	#roster-th:nth-child(even) {
-		background-color: rgb(225, 225, 225);
+	background-color: rgb(225, 225, 225);
 	}
 
 	#roster-th:nth-child(odd) {
-		background-color: rgb(210, 210, 210);
+	background-color: rgb(210, 210, 210);
 	}
 
 	#roster-td:nth-child(even) {
-		background-color: rgb(225, 225, 225);
+	background-color: rgb(225, 225, 225);
 	}
 
 	#roster-td:nth-child(odd) {
-		background-color: rgb(210, 210, 210);
+	background-color: rgb(210, 210, 210);
 	}
 
 	/*--All Standings Styling Above Here--*/
 
 	.contact-h1 {
-		text-align: center;
-		text-transform: uppercase;
+	text-align: center;
+	text-transform: uppercase;
 	}
 
 	input[type=text],
 	select,
 	textarea {
-		width: 100%;
-		padding: 12px;
-		border: 1px solid #ccc;
-		border-radius: 4px;
-		box-sizing: border-box;
-		margin-top: 6px;
-		margin-bottom: 16px;
-		resize: vertical;
-		font-family: calibri;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-family: calibri;
 	}
 
 	input[type=submit] {
-		color: black;
-		background-color: rgb(252, 76, 2);
-		padding: 12px 20px;
-		border: none;
-		border-radius: 4px;
-		cursor: pointer;
-		font-family: calibri;
+	color: black;
+	background-color: rgb(252, 76, 2);
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: calibri;
 	}
 
 	.container {
-		border-radius: 5px;
-		padding: 20px;
+	border-radius: 5px;
+	padding: 20px;
 	}
 
 	#fname {
-		color: red
+	color: red
 	}
 
 	/*--All-Contact-Styling-Goes-Above-Here--*/
 
+	.error-h1,
+	.error-h2 {
+	text-align: center;
+	text-transform: uppercase;
+	}
 
+	#wild-wing {
+	display: block;
+	margin: auto;
+	width: 20%;
+	}
 
-    /*--All-Below-Goes-Into-Every-Page--*/
+	/*--All-Error-Styling-Goes-Above-Here--*/
+
+	/*--All-Below-Goes-Into-Every-Page--*/
 
 	.social {
-		background-color: black;
-		width: 100%;
-		display: block;
-		margin: auto auto 0 auto;
-		text-align: center;
-		bottom: 0px;
-		margin: 0;
-		padding: 0;
+	background-color: black;
+	width: 100%;
+	display: block;
+	margin: auto auto 0 auto;
+	text-align: center;
+	bottom: 0px;
+	margin: 0;
+	padding: 0;
 	}
 
 
 	#foot {
-		color: white;
-		text-align: center;
+	color: white;
+	text-align: center;
 	}
 
 	.fa {
 
-		height: 30px;
-		width: 30px;
-		text-align: center;
-		margin: auto;
-		text-decoration: none;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	margin: auto;
+	text-decoration: none;
 	}
 
 	.fa-instagram {
-		color: white
+	color: white
 	}
 
 	.fa-facebook {
-		color: white
+	color: white
 	}
 
 	.fa-twitter {
-		color: white
+	color: white
 	}
 
 	.fa-youtube {
-		color: white;
+	color: white;
 	}
 
 	#index-h5 {
-		color: white
+	color: white
 	} 
-	 /*--All-Media-Queries-Go-Below-Here--*/
+	/*--All-Media-Queries-Go-Below-Here--*/
 
-	 @media screen and (max-width: 1000px) { 
+	@media screen and (max-width: 1000px) { 
 
-		.hide {
-		  display: none;
-		}
-		
-		#hide {
-			display: none;
-		}
+	.hide {
+	display: none;
+	}
 
-	 @media screen and (max-width: 800px) { 
+	#hide {
+	display: none;
+	}
 
-		.hide {
-		  display: none;
-		}
-		
-		#hide {
-			display: none;
-		}
+	@media screen and (max-width: 800px) { 
+
+	.hide {
+	display: none;
+	}
+
+	#hide {
+	display: none;
+	}
 
 	@media screen and (max-width: 600px) {
 
-		.topnav a:not(:first-child) {
-			display: none;
-		}
-
-		.topnav a.icon {
-			float: right;
-			display: block;
-		}
-
-		.topnav.responsive {
-			position: relative;
-		}
-
-		.topnav.responsive .icon {
-			position: absolute;
-			right: 0;
-			top: 0;
-		}
-
-		.topnav.responsive a {
-			float: none;
-			margin-bottom: 10px;
-			display: block;
-			text-align: left;
-		}
-
-		.topnav.responsive a:hover {
-			float: none;
-			color: rgb(252, 76, 2);
-			display: block;
-			text-align: left;
-		}
-
-		.hide {
-			display: none;
-		}
-
-		#hide {
-			display: none;
-		}
-
-		table {
-			width: 90%;
-			margin: auto;
-		}
+	.topnav a:not(:first-child) {
+	display: none;
 	}
-	 }
+
+	.topnav a.icon {
+	float: right;
+	display: block;
 	}
-}
+
+	.topnav.responsive {
+	position: relative;
+	}
+
+	.topnav.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+
+	.topnav.responsive a {
+	float: none;
+	margin-bottom: 10px;
+	display: block;
+	text-align: left;
+	}
+
+	.topnav.responsive a:hover {
+	float: none;
+	color: rgb(252, 76, 2);
+	display: block;
+	text-align: left;
+	}
+
+	.hide {
+	display: none;
+	}
+
+	#hide {
+	display: none;
+	}
+
+	table {
+	width: 90%;
+	margin: auto;
+	}
+	}
+	}
+	}
+	}
